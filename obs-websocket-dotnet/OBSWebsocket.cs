@@ -134,7 +134,8 @@ namespace OBSWebsocketDotNet
                 return;
             }
 
-            ServerMessage msg = JsonConvert.DeserializeObject<ServerMessage>(e.Data.ToString());
+            var text = Encoding.UTF8.GetString(e.Data.Array);
+            ServerMessage msg = JsonConvert.DeserializeObject<ServerMessage>(text);
             JObject body = msg.Data;
 
             switch (msg.OperationCode)
