@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netstandard2.0</TargetFramework>
+		<TargetFramework>net472</TargetFramework>
 		<AssemblyName>obs-websocket-dotnet</AssemblyName>
 		<RootNamespace>OBSWebsocketDotNet</RootNamespace>
 		<Copyright>Copyright © BarRaider 2022</Copyright>
@@ -33,7 +33,7 @@ What's new in v5.0.0.3
 
 	<ItemGroup>
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-	  <PackageReference Include="Websocket.Client" Version="4.4.43" />
+	  <PackageReference Include="WatsonWebsocket" Version="4.1.1" />
 	</ItemGroup>
 
 	<ItemGroup>

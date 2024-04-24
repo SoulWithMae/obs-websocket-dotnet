@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OBSWebsocketDotNet.Communication
+﻿namespace OBSWebsocketDotNet.Communication
 {
     internal enum MessageTypes
     {

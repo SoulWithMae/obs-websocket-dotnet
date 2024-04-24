@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OBSWebsocketDotNet.Communication
+﻿namespace OBSWebsocketDotNet.Communication
 {
     /// <summary>
     /// Close/Error codes sent by OBS Websocket when closing the connection
